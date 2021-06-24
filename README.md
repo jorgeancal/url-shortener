@@ -5,7 +5,16 @@ we would need to have:
 
 - JDK 16
 - Gradle 7.0.2
+- Docker 20.10.5
+- Docker compose version 1.29.0
 
+## How to Run it
+We need to run the next two command 
+```bash
+$ ./gradlew bootBuildImage
+
+$ docker-compose up -d
+```
 
 ## Example of the requests
 To encode the URL we would need to run the next request
