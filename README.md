@@ -9,11 +9,17 @@ we would need to have:
 - Docker compose version 1.29.0
 
 ## How to Run it
+### Manually 
 We need to run the next two command 
 ```bash
 $ ./gradlew bootBuildImage
 
 $ docker-compose up -d
+```
+### with the run.sh Script 
+running the bash script called run.sh
+```bash
+$ ./run.sh
 ```
 
 ## Example of the requests
